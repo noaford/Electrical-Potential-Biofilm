@@ -199,14 +199,14 @@ for iters in range(maxiters):
 iter_num = np.linspace(1,maxiters,maxiters)*dt
  
 plt.figure()
-plt.plot(iter_num,dL)
+plt.plot(iter_num,dL, color='steelblue')
 plt.title('Mean Voltage')
 plt.xlabel('Time')
 plt.ylabel('Voltage')
 plt.savefig('Voltage')
  
 plt.figure()
-plt.plot(iter_num,dL2)
+plt.plot(iter_num,dL2, color='darkorange')
 plt.title('Potassium')
 plt.xlabel('Time')
 plt.ylabel('Potassium')
